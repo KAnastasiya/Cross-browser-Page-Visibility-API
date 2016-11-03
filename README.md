@@ -5,6 +5,7 @@
 3. Оповещать пользователя о событиях на сайте, если он находится в неактивной вкладке.
 
 Для этих целей в JavaScript предусмотрено Page Visibility API. Подробнее о его позможностях и использовании можно ознакомиться здесь:
+
 1. [Статья на MDN] (https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API)
 2. [Работа с Page Visibility API] (http://webonrails.ru/post/451126205874182705/)
 3. [Статья на htmlhook.ru] (http://htmlhook.ru/pagevisibility-api.html)
