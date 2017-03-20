@@ -6,13 +6,13 @@
 
 Для этих целей в JavaScript предусмотрено Page Visibility API. Подробнее о его позможностях и использовании можно ознакомиться здесь:
 
-1. [Статья на MDN] (https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API)
-2. [Работа с Page Visibility API] (http://webonrails.ru/post/451126205874182705/)
-3. [Статья на htmlhook.ru] (http://htmlhook.ru/pagevisibility-api.html)
+1. [Статья на MDN](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API)
+2. [Работа с Page Visibility API](http://webonrails.ru/post/451126205874182705/)
+3. [Статья на htmlhook.ru](http://htmlhook.ru/pagevisibility-api.html)
 
-Стоит отметить, что в чистом виде Page Visibility API поддерживается в следующих браузерах: IE10+, Edge, FF 10+, Chrome 14+, Safari 6.1+, Opera 12.1+. Подробнее см. на [CanIUse] (http://caniuse.com/#search=pagevisibility).
+Стоит отметить, что в чистом виде Page Visibility API поддерживается в следующих браузерах: IE10+, Edge, FF 10+, Chrome 14+, Safari 6.1+, Opera 12.1+. Подробнее см. на [CanIUse](http://caniuse.com/#search=pagevisibility).
 
-Для поддержки в более ранних версиях браузеров уже есть замечательный [поллифилом] (https://gist.github.com/addyosmani/1122546), который по словам его автора проверен в браузерах Chromium nightly, Chrome 12, IE10PP, IE9, IE8, Opera 9.5, Firefox 5.
+Для поддержки в более ранних версиях браузеров уже есть замечательный [поллифилом](https://gist.github.com/addyosmani/1122546), который по словам его автора проверен в браузерах Chromium nightly, Chrome 12, IE10PP, IE9, IE8, Opera 9.5, Firefox 5.
 
 Однако, при попытке воспользоваться этим поллифилом на сегодняшний день оказалось, что поллифил достаточно устарел :-(. Да, в старых браузерах, о которых говорит автор поллифила, действительно все прекрастно работает, но вот в IE11, FF одной из последних версий, Edge оказалось не все так радостно.
 
